@@ -1,0 +1,4 @@
+﻿Hipótesis,Tipo de hipótesis,n pre / n post,U (post vs pre),Rank-biserial (post vs pre),"p exacto bilateral (permutación, con empates)","p exacto bilateral (scipy, ignora empates)",p exacto en la dirección de la hipótesis,p asintótico bilateral (con corrección de continuidad),p asintótico bilateral (sin corrección),Publicado,"Reproduce lo publicado (exacto bilateral, α=0.05)"
+H1 Tiempo de respuesta,reducción,4 / 3,0.0,-1.0,0.0571,0.0571,0.0286,0.0518,0.0339,Tabla 2: p>0.05 (no significativo),True
+H2 Satisfacción,aumento,4 / 3,12.0,1.0,0.0286,0.0571,0.0286,0.0497,0.0323,Tabla 2: p<0.05 (significativo),True
+H3 Consultas mensuales,cambio (bilateral),4 / 3,0.0,-1.0,0.0571,0.0571,0.0571,0.0518,0.0339,Tabla 2: p>0.05 (no significativo),True

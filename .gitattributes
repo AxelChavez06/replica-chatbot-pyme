@@ -1,0 +1,8 @@
+# Normaliza saltos de línea: texto en LF dentro del repositorio
+* text=auto eol=lf
+
+# Binarios: no tocar
+*.png binary
+*.pdf binary
+*.db binary
+*.joblib binary

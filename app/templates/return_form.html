@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Formulario de devolución (demo){% endblock %}
+{% block content %}
+<section class="card" style="max-width:640px;margin:0 auto">
+  <h1>Formulario de devolución</h1>
+  <p class="muted">Página de demostración: el formulario no envía información. Representa el enlace que el chatbot comparte en la categoría «Devoluciones».</p>
+  <form onsubmit="return false" class="form">
+    <label>Código de pedido <input placeholder="PED-1234" disabled></label>
+    <label>Motivo <input placeholder="Talla, defecto, otro…" disabled></label>
+    <button class="btn" disabled>Enviar (deshabilitado en demo)</button>
+  </form>
+</section>
+{% endblock %}

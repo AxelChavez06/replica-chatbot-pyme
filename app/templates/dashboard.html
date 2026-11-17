@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Panel de indicadores · Réplica{% endblock %}
+{% block content %}
+<div class="page-head">
+  <h1>Panel de indicadores</h1>
+  <p class="muted">Tres fuentes distintas, separadas a propósito:
+    <span class="src src--paper">Artículo</span> cifras publicadas,
+    <span class="src src--synth">Prototipo</span> pruebas sintéticas propias,
+    <span class="src src--live">Demo en vivo</span> lo que se teclea en esta sesión.</p>
+</div>
+
+<section class="block">
+  <h2><span class="src src--paper">Artículo</span> Resultados publicados (datos reales de la empresa del estudio)</h2>
+  <div id="paper-kpis" class="kpis"></div>
+  <div class="figs">
+    <figure><img src="/results/replication/figura2_impacto_chatbot.png" alt="Figura 2 replicada: impacto del chatbot"><figcaption>Figura 2 replicada con la Tabla 1.</figcaption></figure>
+    <figure><img src="/results/replication/figura1_pedidos_mensuales.png" alt="Figura 1 replicada: pedidos mensuales"><figcaption>Figura 1 replicada.</figcaption></figure>
+  </div>
+  <p class="muted small">Pruebas de Mann-Whitney y discrepancias con el artículo: <code>results/replication/discrepancias.md</code>.</p>
+</section>
+
+<section class="block">
+  <h2><span class="src src--synth">Prototipo</span> Pruebas sintéticas (<span id="n-q">—</span> consultas escritas por nosotros)</h2>
+  <div id="exp-missing" class="notice" hidden>Aún no hay resultados. Ejecuta <code>python -m experiments.run_experiment</code>.</div>
+  <div id="exp-kpis" class="kpis"></div>
+  <div class="figs">
+    <figure><img src="/results/experiment/matriz_confusion.png" alt="Matriz de confusión" onerror="this.parentElement.hidden=true"><figcaption>Matriz de confusión del clasificador.</figcaption></figure>
+    <figure><img src="/results/experiment/resultados_por_etiqueta.png" alt="Resultados por tipo de consulta" onerror="this.parentElement.hidden=true"><figcaption>Resultado del bot por tipo de consulta.</figcaption></figure>
+  </div>
+  <h3>Por tipo de consulta</h3>
+  <div class="table-wrap"><table id="tag-table"><thead><tr><th>Tipo</th><th>n</th><th>Exactitud de enrutamiento</th><th>Resueltas</th><th>Aclaración</th><th>Derivadas</th></tr></thead><tbody></tbody></table></div>
+</section>
+
+<section class="block">
+  <h2>Comparación con el artículo</h2>
+  <div class="table-wrap"><table id="cmp-table"><thead><tr><th>Indicador</th><th><span class="src src--paper">Artículo</span></th><th><span class="src src--synth">Prototipo</span></th><th>¿Comparable?</th></tr></thead><tbody></tbody></table></div>
+</section>
+
+<section class="block">
+  <h2><span class="src src--live">Demo en vivo</span> Interacciones de esta sesión</h2>
+  <div id="live-kpis" class="kpis"></div>
+  <h3>Cola de operadores (derivaciones recientes)</h3>
+  <div class="table-wrap"><table id="queue-table"><thead><tr><th>Ticket</th><th>Hora</th><th>Motivo</th><th>Mensaje del cliente</th></tr></thead><tbody></tbody></table></div>
+</section>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='dashboard.js') }}"></script>{% endblock %}

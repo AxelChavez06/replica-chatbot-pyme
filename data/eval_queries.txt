@@ -1,0 +1,155 @@
+# Conjunto de EVALUACIÓN sintético (escrito a mano; NO proviene del artículo y NO son clientes reales).
+# Formato: etiqueta|intencion_real|resultado_esperado|texto
+# intencion_real: una de las 5 categorías o "ninguna".  resultado_esperado: resuelto | aclaracion | derivado
+# Marcadores: {order} = código de pedido de la BD demo, {product} = producto del catálogo demo.
+standard|estado_pedido|resuelto|¿Podrían indicarme por dónde va el pedido {order}?
+standard|estado_pedido|resuelto|Hola, hice una compra hace unos días, el código es {order}, ¿ya salió?
+standard|estado_pedido|resuelto|¿Cuál es el estado actual de {order}?
+standard|estado_pedido|resuelto|Buenas, ¿para cuándo estaría llegando {order}?
+standard|estado_pedido|resuelto|Mi paquete {order} ¿ya fue despachado?
+standard|estado_pedido|resuelto|¿Me pasan el código de rastreo del pedido {order}?
+standard|estado_pedido|resuelto|Estoy esperando la entrega de {order}, ¿tiene fecha?
+standard|estado_pedido|resuelto|¿Qué transportista lleva el pedido {order}?
+standard|estado_pedido|resuelto|Necesito cambiar la dirección de entrega del pedido {order}
+standard|estado_pedido|resuelto|¿{order} sigue en preparación?
+standard|estado_pedido|resuelto|Quisiera conocer la fecha prevista de entrega de {order}
+standard|estado_pedido|resuelto|¿Podría revisar si {order} ya está en camino?
+standard|estado_pedido|resuelto|¿Ya se entregó {order}? Nadie me avisó
+standard|estado_pedido|resuelto|Por favor infórmenme el avance de mi pedido {order}
+standard|estado_pedido|resuelto|¿Cuánto tiempo más demorará {order}?
+standard|estado_pedido|resuelto|¿El pedido {order} ya fue recogido por el courier?
+standard|disponibilidad|resuelto|¿Tienen {product} en talla M?
+standard|disponibilidad|resuelto|¿Siguen vendiendo {product}?
+standard|disponibilidad|resuelto|¿Me confirman si queda stock de {product} en negro?
+standard|disponibilidad|resuelto|¿En qué colores tienen {product}?
+standard|disponibilidad|resuelto|¿Todavía tienen {product}?
+standard|disponibilidad|resuelto|¿Tienen {product} en talla L y color gris?
+standard|disponibilidad|resuelto|Quisiera saber qué tallas hay disponibles para {product}
+standard|disponibilidad|resuelto|¿Han repuesto {product}? Lo vi agotado
+standard|disponibilidad|resuelto|¿Existe {product} en otro color diferente?
+standard|disponibilidad|resuelto|¿Podrían decirme si hay unidades de {product} en blanco?
+standard|disponibilidad|resuelto|¿Tienen {product} en talla S?
+standard|disponibilidad|resuelto|Consulta de stock sobre {product}
+standard|disponibilidad|resuelto|¿Hay variantes de color para {product}?
+standard|disponibilidad|resuelto|¿Aún les queda {product} en azul?
+standard|disponibilidad|resuelto|Disculpa, ¿{product} se encuentra disponible en talla XL?
+standard|disponibilidad|resuelto|Me interesa {product}, ¿qué opciones de color hay?
+standard|devoluciones|resuelto|¿Cuál es el procedimiento para devolver una prenda?
+standard|devoluciones|resuelto|Compré una talla equivocada y quiero cambiarla
+standard|devoluciones|resuelto|¿En cuántos días puedo pedir la devolución?
+standard|devoluciones|resuelto|¿Dónde descargo el formulario para devolver mi pedido?
+standard|devoluciones|resuelto|Quiero el reembolso de lo que compré
+standard|devoluciones|resuelto|¿Cuáles son las condiciones para cambiar un producto?
+standard|devoluciones|resuelto|¿El costo de enviar la devolución lo asumo yo?
+standard|devoluciones|resuelto|Recibí un artículo con una costura rota, ¿cómo procedo?
+standard|devoluciones|resuelto|¿Puedo devolver el pedido {order}?
+standard|devoluciones|resuelto|¿Cómo gestiono el cambio de la prenda que me llegó?
+standard|devoluciones|resuelto|¿Me reintegran el dinero si devuelvo la compra?
+standard|devoluciones|resuelto|¿Hasta cuándo puedo devolver lo que compré?
+standard|devoluciones|resuelto|Necesito hacer una devolución, ¿cuál es el primer paso?
+standard|devoluciones|resuelto|¿Qué hago si el producto no es lo que esperaba?
+standard|devoluciones|resuelto|¿Cuánto tarda en reflejarse el reembolso de una devolución?
+standard|devoluciones|resuelto|Pedí una chaqueta pero llegó otra, quiero cambiarla
+standard|pagos|resuelto|¿Con qué medios puedo pagar mi compra?
+standard|pagos|resuelto|¿Puedo abonar con transferencia?
+standard|pagos|resuelto|¿Admiten tarjeta de crédito?
+standard|pagos|resuelto|¿Pueden confirmarme si el pago de {order} ya se acreditó?
+standard|pagos|resuelto|¿Hay opción de pagar contra entrega?
+standard|pagos|resuelto|¿Aceptan pagos fraccionados en varias cuotas?
+standard|pagos|resuelto|¿Cómo sé si mi pago fue exitoso?
+standard|pagos|resuelto|¿Es posible pagar con PayPal?
+standard|pagos|resuelto|¿Emiten comprobante electrónico?
+standard|pagos|resuelto|¿Qué tarjetas reciben?
+standard|pagos|resuelto|Pagué por transferencia ayer, ¿ya lo ven en el pedido {order}?
+standard|pagos|resuelto|¿Tienen recargo por pagar con tarjeta?
+standard|pagos|resuelto|¿Dónde veo si mi pedido {order} está pagado?
+standard|pagos|resuelto|¿Cuáles son las formas de pago disponibles?
+standard|pagos|resuelto|¿Aceptan billeteras digitales?
+standard|pagos|resuelto|¿Me indican los datos bancarios para transferir?
+standard|descuentos|resuelto|¿Hay algún código de descuento que pueda usar?
+standard|descuentos|resuelto|¿Cómo se aplica un cupón en el carrito?
+standard|descuentos|resuelto|¿Se pueden usar dos cupones a la vez?
+standard|descuentos|resuelto|¿Siguen activas las promociones?
+standard|descuentos|resuelto|¿Sigue valiendo el cupón VERANO15?
+standard|descuentos|resuelto|¿Tienen cupón de bienvenida?
+standard|descuentos|resuelto|¿Cuál es la compra mínima para aplicar un código?
+standard|descuentos|resuelto|El cupón ENVIOGRATIS no se aplica, ¿por qué?
+standard|descuentos|resuelto|¿Hay descuentos acumulables?
+standard|descuentos|resuelto|¿Qué ofertas tienen este mes?
+standard|descuentos|resuelto|¿Hasta qué fecha es válido el código FIEL20?
+standard|descuentos|resuelto|Quiero ahorrar en mi pedido, ¿qué cupones hay?
+standard|descuentos|resuelto|¿Puedo juntar el cupón BIENVENIDA10 con otro código?
+standard|descuentos|resuelto|¿Cuánto descuento da el código VERANO15?
+standard|descuentos|resuelto|¿Hay descuentos por volumen?
+standard|descuentos|resuelto|¿Dónde ingreso mi código promocional?
+noisy|estado_pedido|resuelto|donde esta mi pedido {order}??
+noisy|estado_pedido|resuelto|q pasa con mi orden {order} no llega
+noisy|estado_pedido|resuelto|ya enviaron {order}? gracias
+noisy|estado_pedido|resuelto|cuando entregan el {order}
+noisy|disponibilidad|resuelto|tienen {product} en talla m?
+noisy|disponibilidad|resuelto|hay stok de {product} en negro
+noisy|disponibilidad|resuelto|ke colores tienen {product}
+noisy|disponibilidad|resuelto|aun kda {product}??
+noisy|devoluciones|resuelto|kiero devolver mi compra
+noisy|devoluciones|resuelto|como hago una devolucion xfa
+noisy|devoluciones|resuelto|me pueden reembolsar? no me gusto
+noisy|devoluciones|resuelto|kiero cambiar de talla una prenda
+noisy|pagos|resuelto|aceptan paypal?
+noisy|pagos|resuelto|se puede pagar con tarjeta d credito
+noisy|pagos|resuelto|ya llego mi pago de {order}?
+noisy|pagos|resuelto|pago contra entrega? si o no
+noisy|descuentos|resuelto|tienen cupones?
+noisy|descuentos|resuelto|como uso el codigo promocional
+noisy|descuentos|resuelto|puedo juntar cupones??
+noisy|descuentos|resuelto|hay ofertas ahora mismo
+missing_entity|estado_pedido|aclaracion|¿Podrían decirme cuándo me llega la compra que hice el lunes?
+missing_entity|estado_pedido|aclaracion|Aún no recibo lo que pedí, ¿cómo va?
+missing_entity|estado_pedido|aclaracion|¿Mi encomienda ya está en camino?
+missing_entity|estado_pedido|aclaracion|¿Qué día me entregan mi compra?
+missing_entity|disponibilidad|aclaracion|¿Tienen talla M disponible?
+missing_entity|disponibilidad|aclaracion|¿Hay stock en color negro?
+missing_entity|disponibilidad|aclaracion|¿Les queda en azul?
+missing_entity|disponibilidad|aclaracion|¿Qué tallas tienen disponibles?
+missing_entity|pagos|aclaracion|¿Podrían verificar si mi pago ya se acreditó?
+missing_entity|pagos|aclaracion|Pagué hoy, ¿pueden confirmar que lo recibieron?
+needs_operator|pagos|derivado|Necesito que me reenvíen la factura de mi compra {order}
+needs_operator|pagos|derivado|La factura salió con un RUC equivocado, ¿pueden corregirla?
+needs_operator|ninguna|derivado|Quiero cancelar mi pedido {order}
+needs_operator|ninguna|derivado|Anulen mi compra {order} por favor
+needs_operator|pagos|derivado|Necesito el duplicado de mi boleta del pedido {order}
+needs_operator|pagos|derivado|Quiero que me emitan otra factura a nombre de mi empresa
+emotional|devoluciones|derivado|¡Esto es inaceptable! Mi pedido {order} llegó destrozado y nadie me responde
+emotional|ninguna|derivado|Estoy harto de esperar, ¡qué servicio tan pésimo!
+emotional|ninguna|derivado|Me parece una estafa, pagué y no me llega nada
+emotional|ninguna|derivado|Es una vergüenza cómo tratan a los clientes, exijo una solución ya
+emotional|ninguna|derivado|Qué horrible atención, jamás vuelvo a comprar aquí
+emotional|pagos|derivado|Otra vez me cobraron mal y nadie da la cara
+emotional|ninguna|derivado|Voy a denunciarlos por publicidad engañosa
+emotional|devoluciones|derivado|Estoy muy molesta, el abrigo que recibí tiene manchas y es la segunda vez
+emotional|ninguna|derivado|ESTOY FURIOSO, NO ME HAN RESPONDIDO NADA
+emotional|ninguna|derivado|Pésimo servicio, quiero hablar con el gerente
+human_request|ninguna|derivado|Quiero hablar con una persona, no con un bot
+human_request|ninguna|derivado|Pásame con un asesor humano por favor
+human_request|ninguna|derivado|¿Puedo comunicarme con alguien del equipo?
+human_request|ninguna|derivado|Necesito atención de un operador
+human_request|ninguna|derivado|Comuníquenme con un agente real
+out_of_scope|ninguna|derivado|¿Cuál es la capital de Francia?
+out_of_scope|ninguna|derivado|¿Trabajan con mayoristas o venta por volumen para empresas?
+out_of_scope|ninguna|derivado|¿Tienen una tienda física donde pueda probarme la ropa?
+out_of_scope|ninguna|derivado|Quisiera ofrecerles mis servicios de diseño gráfico
+out_of_scope|ninguna|derivado|¿Están contratando personal?
+out_of_scope|ninguna|derivado|¿Pueden hacerme una prenda a medida?
+out_of_scope|ninguna|derivado|¿Cómo lavo una chaqueta de denim para que no destiñe?
+out_of_scope|ninguna|derivado|¿Me recomiendan qué ponerme para una boda de día?
+out_of_scope|ninguna|derivado|¿Cuál es el horario de atención de su oficina?
+out_of_scope|ninguna|derivado|¿Hacen envíos al extranjero, por ejemplo a España?
+out_of_scope|ninguna|derivado|¿Venden tarjetas de regalo?
+out_of_scope|ninguna|derivado|¿Pueden confeccionar uniformes para mi equipo?
+ambiguous|ninguna|derivado|ayuda
+ambiguous|ninguna|derivado|tengo un problema
+ambiguous|ninguna|derivado|no funciona
+ambiguous|ninguna|derivado|una consulta
+ambiguous|ninguna|derivado|necesito información
+ambiguous|ninguna|derivado|hola, ¿me pueden ayudar con algo?
+ambiguous|ninguna|derivado|no entiendo lo que pasó
+ambiguous|ninguna|derivado|algo salió mal con mi compra

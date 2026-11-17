@@ -1,0 +1,8 @@
+﻿Mes,Consultas totales,Tiempo medio de respuesta (min),Atendidas por chatbot,Derivadas a operador,Satisfacción (1-5),% chatbot (calculado),% chatbot (publicado),Coincide con publicado,Chatbot + operador = total
+Oct 2024,645,118,0,645,3.7,0.0,0.0,True,True
+Nov 2024,698,120,0,698,3.6,0.0,0.0,True,True
+Dic 2024,715,119,0,715,3.8,0.0,0.0,True,True
+Ene 2025,683,116,0,683,3.8,0.0,0.0,True,True
+Feb 2025,574,88,349,225,4.1,60.8,60.8,True,True
+Mar 2025,598,61,457,141,4.3,76.42,76.42,True,True
+Abr 2025,581,43,496,85,4.4,85.37,85.37,True,True

@@ -1,0 +1,179 @@
+{
+  "table1": [
+    {
+      "Mes": "Oct 2024",
+      "Consultas totales": 645,
+      "Tiempo medio de respuesta (min)": 118,
+      "Atendidas por chatbot": 0,
+      "Derivadas a operador": 645,
+      "Satisfacción (1-5)": 3.7,
+      "% chatbot (calculado)": 0.0,
+      "% chatbot (publicado)": 0.0,
+      "Coincide con publicado": true,
+      "Chatbot + operador = total": true
+    },
+    {
+      "Mes": "Nov 2024",
+      "Consultas totales": 698,
+      "Tiempo medio de respuesta (min)": 120,
+      "Atendidas por chatbot": 0,
+      "Derivadas a operador": 698,
+      "Satisfacción (1-5)": 3.6,
+      "% chatbot (calculado)": 0.0,
+      "% chatbot (publicado)": 0.0,
+      "Coincide con publicado": true,
+      "Chatbot + operador = total": true
+    },
+    {
+      "Mes": "Dic 2024",
+      "Consultas totales": 715,
+      "Tiempo medio de respuesta (min)": 119,
+      "Atendidas por chatbot": 0,
+      "Derivadas a operador": 715,
+      "Satisfacción (1-5)": 3.8,
+      "% chatbot (calculado)": 0.0,
+      "% chatbot (publicado)": 0.0,
+      "Coincide con publicado": true,
+      "Chatbot + operador = total": true
+    },
+    {
+      "Mes": "Ene 2025",
+      "Consultas totales": 683,
+      "Tiempo medio de respuesta (min)": 116,
+      "Atendidas por chatbot": 0,
+      "Derivadas a operador": 683,
+      "Satisfacción (1-5)": 3.8,
+      "% chatbot (calculado)": 0.0,
+      "% chatbot (publicado)": 0.0,
+      "Coincide con publicado": true,
+      "Chatbot + operador = total": true
+    },
+    {
+      "Mes": "Feb 2025",
+      "Consultas totales": 574,
+      "Tiempo medio de respuesta (min)": 88,
+      "Atendidas por chatbot": 349,
+      "Derivadas a operador": 225,
+      "Satisfacción (1-5)": 4.1,
+      "% chatbot (calculado)": 60.8,
+      "% chatbot (publicado)": 60.8,
+      "Coincide con publicado": true,
+      "Chatbot + operador = total": true
+    },
+    {
+      "Mes": "Mar 2025",
+      "Consultas totales": 598,
+      "Tiempo medio de respuesta (min)": 61,
+      "Atendidas por chatbot": 457,
+      "Derivadas a operador": 141,
+      "Satisfacción (1-5)": 4.3,
+      "% chatbot (calculado)": 76.42,
+      "% chatbot (publicado)": 76.42,
+      "Coincide con publicado": true,
+      "Chatbot + operador = total": true
+    },
+    {
+      "Mes": "Abr 2025",
+      "Consultas totales": 581,
+      "Tiempo medio de respuesta (min)": 43,
+      "Atendidas por chatbot": 496,
+      "Derivadas a operador": 85,
+      "Satisfacción (1-5)": 4.4,
+      "% chatbot (calculado)": 85.37,
+      "% chatbot (publicado)": 85.37,
+      "Coincide con publicado": true,
+      "Chatbot + operador = total": true
+    }
+  ],
+  "table2": [
+    {
+      "Indicador": "Tiempo medio de respuesta (min)",
+      "Antes (calculado)": 118.25,
+      "Antes (publicado)": 118.25,
+      "Después (calculado)": 64.0,
+      "Después (publicado)": 64.0,
+      "Cambio % (calculado)": -45.88,
+      "Cambio % (publicado)": -45.88
+    },
+    {
+      "Indicador": "Satisfacción media (1-5)",
+      "Antes (calculado)": 3.73,
+      "Antes (publicado)": 3.73,
+      "Después (calculado)": 4.27,
+      "Después (publicado)": 4.27,
+      "Cambio % (calculado)": 14.54,
+      "Cambio % (publicado)": 14.54
+    },
+    {
+      "Indicador": "Consultas totales por mes",
+      "Antes (calculado)": 685.25,
+      "Antes (publicado)": 685.25,
+      "Después (calculado)": 584.33,
+      "Después (publicado)": 584.33,
+      "Cambio % (calculado)": -14.73,
+      "Cambio % (publicado)": -14.73
+    },
+    {
+      "Indicador": "% atendido por chatbot (promedio de % mensuales)",
+      "Antes (calculado)": 0.0,
+      "Antes (publicado)": 0.0,
+      "Después (calculado)": 74.2,
+      "Después (publicado)": 74.2,
+      "Cambio % (calculado)": NaN,
+      "Cambio % (publicado)": NaN
+    },
+    {
+      "Indicador": "% atendido por chatbot (agrupado: sum/sum) [alternativa]",
+      "Antes (calculado)": 0.0,
+      "Antes (publicado)": NaN,
+      "Después (calculado)": 74.27,
+      "Después (publicado)": NaN,
+      "Cambio % (calculado)": NaN,
+      "Cambio % (publicado)": NaN
+    }
+  ],
+  "tests": [
+    {
+      "Hipótesis": "H1 Tiempo de respuesta",
+      "Tipo de hipótesis": "reducción",
+      "n pre / n post": "4 / 3",
+      "U (post vs pre)": 0.0,
+      "Rank-biserial (post vs pre)": -1.0,
+      "p exacto bilateral (permutación, con empates)": 0.0571,
+      "p exacto bilateral (scipy, ignora empates)": 0.0571,
+      "p exacto en la dirección de la hipótesis": 0.0286,
+      "p asintótico bilateral (con corrección de continuidad)": 0.0518,
+      "p asintótico bilateral (sin corrección)": 0.0339,
+      "Publicado": "Tabla 2: p>0.05 (no significativo)",
+      "Reproduce lo publicado (exacto bilateral, α=0.05)": true
+    },
+    {
+      "Hipótesis": "H2 Satisfacción",
+      "Tipo de hipótesis": "aumento",
+      "n pre / n post": "4 / 3",
+      "U (post vs pre)": 12.0,
+      "Rank-biserial (post vs pre)": 1.0,
+      "p exacto bilateral (permutación, con empates)": 0.0286,
+      "p exacto bilateral (scipy, ignora empates)": 0.0571,
+      "p exacto en la dirección de la hipótesis": 0.0286,
+      "p asintótico bilateral (con corrección de continuidad)": 0.0497,
+      "p asintótico bilateral (sin corrección)": 0.0323,
+      "Publicado": "Tabla 2: p<0.05 (significativo)",
+      "Reproduce lo publicado (exacto bilateral, α=0.05)": true
+    },
+    {
+      "Hipótesis": "H3 Consultas mensuales",
+      "Tipo de hipótesis": "cambio (bilateral)",
+      "n pre / n post": "4 / 3",
+      "U (post vs pre)": 0.0,
+      "Rank-biserial (post vs pre)": -1.0,
+      "p exacto bilateral (permutación, con empates)": 0.0571,
+      "p exacto bilateral (scipy, ignora empates)": 0.0571,
+      "p exacto en la dirección de la hipótesis": 0.0571,
+      "p asintótico bilateral (con corrección de continuidad)": 0.0518,
+      "p asintótico bilateral (sin corrección)": 0.0339,
+      "Publicado": "Tabla 2: p>0.05 (no significativo)",
+      "Reproduce lo publicado (exacto bilateral, α=0.05)": true
+    }
+  ]
+}

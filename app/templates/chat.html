@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Chatbot · Réplica{% endblock %}
+{% block content %}
+<div class="grid-chat">
+  <section class="card chat" aria-label="Conversación con el chatbot">
+    <div class="card__head">
+      <h1>Asistente de la tienda demo</h1>
+      <span class="pill pill--proto">Prototipo</span>
+    </div>
+    <div id="messages" class="messages" aria-live="polite">
+      <div class="msg msg--bot"><div class="bubble">¡Hola! Soy el asistente virtual de la tienda demo. Puedo ayudarte con estado de pedidos, disponibilidad de productos, devoluciones, métodos de pago y descuentos. Si no puedo resolver tu consulta, te derivo con una persona.</div></div>
+    </div>
+    <form id="chat-form" class="composer" autocomplete="off">
+      <input id="input" type="text" maxlength="500" placeholder="Escribe tu consulta…" aria-label="Mensaje" required>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <aside class="side">
+    <section class="card">
+      <h2>Qué hizo el sistema</h2>
+      <p class="muted small">Traza de la última respuesta.</p>
+      <dl id="trace" class="trace">
+        <div><dt>Intención</dt><dd id="t-intent">—</dd></div>
+        <div><dt>Confianza</dt><dd><div class="meter"><span id="t-meter"></span></div><span id="t-conf">—</span></dd></div>
+        <div><dt>Resultado</dt><dd id="t-outcome">—</dd></div>
+        <div><dt>Motivo</dt><dd id="t-reason">—</dd></div>
+        <div><dt>Tiempo</dt><dd id="t-ms">—</dd></div>
+      </dl>
+    </section>
+    <section class="card">
+      <h2>Consultas de ejemplo</h2>
+      <div class="chips">
+        {% for label, q in samples %}
+        <button type="button" class="chip" data-q="{{ q }}"><span class="chip__tag">{{ label }}</span>{{ q }}</button>
+        {% endfor %}
+      </div>
+      <p class="muted small">Pedidos de prueba: PED-1001 a PED-1030.</p>
+    </section>
+  </aside>
+</div>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='chat.js') }}"></script>{% endblock %}

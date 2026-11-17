@@ -1,0 +1,27 @@
+# Entorno y cachés
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Temporales y logs
+*.tmp
+*.log
+*.bak
+Thumbs.db
+.DS_Store
+
+# Información sensible / configuración local
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+.vscode/
+.claude/
+
+# Artefactos regenerables
+models/*.joblib
+results/experiment/experiment.db

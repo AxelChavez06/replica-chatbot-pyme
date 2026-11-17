@@ -1,0 +1,155 @@
+# Datos de ENTRENAMIENTO sintéticos (escritos a mano para este proyecto; no provienen del artículo).
+# Formato: intencion|texto
+estado_pedido|¿Cuándo llegará mi paquete?
+estado_pedido|¿Dónde está mi pedido?
+estado_pedido|Quiero saber el estado de mi pedido PED-1010
+estado_pedido|Me puedes decir en qué estado va mi compra
+estado_pedido|¿Ya enviaron mi pedido?
+estado_pedido|¿Cuánto falta para que llegue mi paquete?
+estado_pedido|Necesito el número de seguimiento de mi envío
+estado_pedido|¿Puedo cambiar la dirección de entrega?
+estado_pedido|Quisiera modificar la dirección de envío de mi pedido
+estado_pedido|¿Cuál es la fecha estimada de entrega?
+estado_pedido|Rastrear mi pedido por favor
+estado_pedido|Mi pedido PED-1015 todavía no llega
+estado_pedido|¿Qué courier trae mi pedido?
+estado_pedido|Hace una semana que compré y no recibo nada
+estado_pedido|Consulta por el seguimiento de la compra PED-1022
+estado_pedido|¿Mi pedido ya salió del almacén?
+estado_pedido|¿A qué hora pasa el repartidor hoy?
+estado_pedido|Estado del envío PED-1004
+estado_pedido|¿Cuántos días tarda en llegar mi compra?
+estado_pedido|Tracking de mi paquete, gracias
+estado_pedido|¿Mi paquete ya está en reparto?
+estado_pedido|¿En qué momento me entregan el pedido?
+estado_pedido|Necesito saber si ya despacharon mi orden
+estado_pedido|¿Se puede cambiar la dirección donde recibiré el paquete?
+estado_pedido|Dime cómo va mi pedido PED-1030
+estado_pedido|¿Se entregó ya mi pedido?
+estado_pedido|¿Cuándo me llega lo que compré?
+estado_pedido|Seguimiento de envío por favor
+estado_pedido|Mi orden aún figura como procesando, ¿cuándo sale?
+estado_pedido|¿Dónde puedo ver el recorrido de mi paquete?
+estado_pedido|Quiero saber si mi pedido ya fue enviado
+estado_pedido|La fecha de entrega de PED-1018, por favor
+disponibilidad|¿Tienen esta chaqueta en otro color?
+disponibilidad|¿Hay stock del vestido de lino en talla M?
+disponibilidad|¿Cuentan con la camisa oxford en talla L?
+disponibilidad|¿Tienen disponible el abrigo de lana?
+disponibilidad|¿Les queda stock de las zapatillas canvas?
+disponibilidad|¿Hay este modelo en otros colores?
+disponibilidad|¿Hay talla S del pantalón cargo?
+disponibilidad|¿Cuándo reponen el stock de la sudadera?
+disponibilidad|¿Todavía tienen el bolso tote?
+disponibilidad|¿Ese producto está agotado?
+disponibilidad|¿Tienen la sudadera oversize en color gris?
+disponibilidad|¿Hay unidades del vestido en color beige?
+disponibilidad|¿Qué tallas quedan de la camisa?
+disponibilidad|¿Venden las zapatillas en blanco?
+disponibilidad|¿Tienen este pantalón en negro?
+disponibilidad|¿Hay existencias de la chaqueta denim en talla L?
+disponibilidad|¿En qué colores viene el abrigo?
+disponibilidad|¿Les queda el bolso en color natural?
+disponibilidad|¿El vestido de lino está disponible?
+disponibilidad|Quisiera saber si hay stock de la camisa en celeste
+disponibilidad|¿Tienen talla XL en el pantalón cargo?
+disponibilidad|¿Hay del número 40 en las zapatillas?
+disponibilidad|¿Aún tienen disponible esa sudadera?
+disponibilidad|¿Cuántas unidades quedan del abrigo?
+disponibilidad|¿Está disponible la chaqueta en azul?
+disponibilidad|¿Hay variantes de color del bolso?
+disponibilidad|¿Tendrán más tallas de la camisa oxford?
+disponibilidad|¿El vestido viene en más colores?
+disponibilidad|Busco la chaqueta vaquera en negro, ¿hay?
+disponibilidad|¿Hay stock de zapatillas en talla 42?
+disponibilidad|¿Tienen el abrigo en color camel?
+disponibilidad|¿Me confirman si hay sudadera en talla M?
+devoluciones|¿Cómo devuelvo un artículo?
+devoluciones|Quiero devolver mi compra
+devoluciones|¿Cuál es el plazo para hacer una devolución?
+devoluciones|¿Dónde envío el producto para que me reembolsen?
+devoluciones|Necesito cambiar una prenda por otra talla
+devoluciones|¿Cómo funciona el cambio de talla?
+devoluciones|La prenda no me quedó, ¿puedo devolverla?
+devoluciones|¿Me devuelven el dinero si no me gusta?
+devoluciones|¿Quién paga el envío de la devolución?
+devoluciones|¿Cuántos días tengo para devolver mi pedido?
+devoluciones|Quiero solicitar un reembolso
+devoluciones|¿Hay formulario para devoluciones?
+devoluciones|El producto llegó con un defecto y quiero devolverlo
+devoluciones|¿Cómo hago un cambio de producto?
+devoluciones|¿Dónde está el formulario de devolución?
+devoluciones|¿Puedo devolver el pedido PED-1004?
+devoluciones|¿Cuánto demora el reembolso?
+devoluciones|Me enviaron el color equivocado, ¿cómo lo cambio?
+devoluciones|¿Aceptan devoluciones de zapatillas?
+devoluciones|¿Qué condiciones tiene la política de devoluciones?
+devoluciones|Quiero hacer una reclamación por un producto dañado
+devoluciones|¿A dónde mando la prenda para el reembolso?
+devoluciones|¿Se puede devolver una prenda que ya usé?
+devoluciones|¿Puedo cambiar el vestido por una talla más grande?
+devoluciones|Necesito la etiqueta para devolver mi compra
+devoluciones|¿Cuándo me regresan mi dinero?
+devoluciones|¿Cómo reclamo por un artículo defectuoso?
+devoluciones|Quisiera retornar un pedido
+devoluciones|¿Los cambios tienen costo?
+devoluciones|¿Qué pasa si el producto vino roto?
+devoluciones|Quiero cambiar mi pedido PED-1012 por otro modelo
+pagos|¿Qué métodos de pago aceptan?
+pagos|¿Puedo pagar con tarjeta?
+pagos|¿Aceptan PayPal?
+pagos|¿Se puede pagar contra reembolso?
+pagos|¿Puedo pagar por transferencia bancaria?
+pagos|¿Se puede pagar en cuotas?
+pagos|¿Mi pago ya fue confirmado?
+pagos|Quiero confirmar que se recibió el pago del pedido PED-1008
+pagos|¿Emiten factura?
+pagos|¿Cómo obtengo mi comprobante de pago?
+pagos|Me cobraron dos veces, ¿pueden revisar?
+pagos|¿Es seguro pagar en su tienda?
+pagos|¿Aceptan tarjetas de débito?
+pagos|¿Puedo pagar la mitad ahora y la mitad después?
+pagos|¿Qué medios de pago tienen disponibles?
+pagos|Hice la transferencia, ¿cuándo se refleja?
+pagos|¿Puedo pagar con Yape o billetera digital?
+pagos|¿Cómo pago mi pedido pendiente?
+pagos|¿Aceptan Visa y Mastercard?
+pagos|Necesito la factura de mi compra PED-1020
+pagos|¿Se puede pagar al recibir el paquete?
+pagos|¿Mi pedido figura como pago pendiente, por qué?
+pagos|¿Qué formas de pago manejan?
+pagos|¿Pueden darme los datos para pagar por transferencia?
+pagos|¿El pago con tarjeta tiene algún recargo?
+pagos|Quiero saber si ya está acreditado mi pago
+pagos|¿Con qué tarjetas puedo pagar?
+pagos|¿Cómo descargo la boleta de mi compra?
+pagos|¿Puedo pagar con dos tarjetas?
+pagos|¿Reciben pagos con PayPal?
+pagos|¿Qué datos necesito para pagar por transferencia?
+descuentos|¿Tienen algún cupón de descuento?
+descuentos|¿Cómo uso un código promocional?
+descuentos|¿Dónde coloco el cupón?
+descuentos|¿Puedo combinar dos descuentos?
+descuentos|¿Hay promociones vigentes?
+descuentos|¿El código VERANO15 sigue vigente?
+descuentos|¿Los cupones se pueden acumular?
+descuentos|Mi cupón no funciona, ¿qué hago?
+descuentos|¿Cuál es el monto mínimo para usar el cupón?
+descuentos|¿Tienen descuento para la primera compra?
+descuentos|¿Hay ofertas esta semana?
+descuentos|¿Cómo aplico el código BIENVENIDA10?
+descuentos|¿Qué descuentos tienen para clientes frecuentes?
+descuentos|¿Hay envío gratis con algún código?
+descuentos|¿Existen códigos de descuento activos?
+descuentos|¿Puedo usar un cupón junto con una oferta?
+descuentos|¿Hasta cuándo vale el cupón de verano?
+descuentos|¿Tienen rebajas o liquidación?
+descuentos|El código ENVIOGRATIS no me deja aplicarlo
+descuentos|¿Qué porcentaje de descuento tiene el cupón?
+descuentos|¿Se puede sumar el descuento de bienvenida con otro cupón?
+descuentos|¿Hay algún código para ahorrar en mi compra?
+descuentos|¿Los descuentos aplican en productos en oferta?
+descuentos|¿Cómo canjeo mi cupón?
+descuentos|¿Tienen promoción por compras grandes?
+descuentos|¿El código FIEL20 todavía sirve?
+descuentos|Quiero saber las reglas de los cupones

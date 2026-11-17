@@ -1,0 +1,229 @@
+{
+  "origen": "PRUEBAS SINTÉTICAS DEL PROTOTIPO (no son datos del artículo ni de clientes reales)",
+  "n_consultas": 151,
+  "n_con_intencion_real": 117,
+  "umbral_confianza": 0.5,
+  "clasificacion": {
+    "exactitud_intenciones": 0.9487179487179487,
+    "macro_f1": 0.9505923299552379,
+    "exactitud_validacion_cruzada_entrenamiento_5fold": 0.9019607843137255,
+    "por_clase": {
+      "estado_pedido": {
+        "precision": 0.8518518518518519,
+        "recall": 0.9583333333333334,
+        "f1-score": 0.9019607843137255,
+        "support": 24.0
+      },
+      "disponibilidad": {
+        "precision": 0.96,
+        "recall": 1.0,
+        "f1-score": 0.9795918367346939,
+        "support": 24.0
+      },
+      "devoluciones": {
+        "precision": 0.9523809523809523,
+        "recall": 0.9090909090909091,
+        "f1-score": 0.9302325581395349,
+        "support": 22.0
+      },
+      "pagos": {
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "f1-score": 0.9411764705882353,
+        "support": 27.0
+      },
+      "descuentos": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      }
+    },
+    "matriz_confusion": {
+      "labels": [
+        "estado_pedido",
+        "disponibilidad",
+        "devoluciones",
+        "pagos",
+        "descuentos"
+      ],
+      "matrix": [
+        [
+          23,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          24,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          20,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          24,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          20
+        ]
+      ]
+    }
+  },
+  "resultados": {
+    "resueltas_automaticamente": 95,
+    "aclaracion_solicitada": 10,
+    "derivadas_a_humano": 46,
+    "pct_resueltas_automaticamente": 62.913907284768214,
+    "pct_aclaracion": 6.622516556291391,
+    "pct_derivadas": 30.4635761589404,
+    "pct_atendidas_sin_humano": 69.5364238410596,
+    "exactitud_enrutamiento_pct": 92.71523178807946
+  },
+  "latencia_ms": {
+    "media": 2.745909933774835,
+    "mediana": 2.247,
+    "p95": 6.468099999999986,
+    "max": 14.216,
+    "n_mediciones": 755,
+    "nota": "Tiempo de procesamiento del servidor (clasificación + reglas + consultas SQLite). No es comparable con el tiempo medio de respuesta en minutos del artículo."
+  },
+  "por_etiqueta": [
+    {
+      "tag": "ambiguous",
+      "n": 8,
+      "routing_accuracy": 0.875,
+      "resuelto": 1,
+      "aclaracion": 0,
+      "derivado": 7,
+      "latency_ms_mean": 2.21215,
+      "intent_accuracy": null,
+      "n_scoped": null
+    },
+    {
+      "tag": "emotional",
+      "n": 10,
+      "routing_accuracy": 1.0,
+      "resuelto": 0,
+      "aclaracion": 0,
+      "derivado": 10,
+      "latency_ms_mean": 2.27544,
+      "intent_accuracy": 0.3333333333333333,
+      "n_scoped": 3.0
+    },
+    {
+      "tag": "human_request",
+      "n": 5,
+      "routing_accuracy": 1.0,
+      "resuelto": 0,
+      "aclaracion": 0,
+      "derivado": 5,
+      "latency_ms_mean": 2.25876,
+      "intent_accuracy": null,
+      "n_scoped": null
+    },
+    {
+      "tag": "missing_entity",
+      "n": 10,
+      "routing_accuracy": 1.0,
+      "resuelto": 0,
+      "aclaracion": 10,
+      "derivado": 0,
+      "latency_ms_mean": 2.5473,
+      "intent_accuracy": 1.0,
+      "n_scoped": 10.0
+    },
+    {
+      "tag": "needs_operator",
+      "n": 6,
+      "routing_accuracy": 1.0,
+      "resuelto": 0,
+      "aclaracion": 0,
+      "derivado": 6,
+      "latency_ms_mean": 2.3741333333333334,
+      "intent_accuracy": 0.75,
+      "n_scoped": 4.0
+    },
+    {
+      "tag": "noisy",
+      "n": 20,
+      "routing_accuracy": 1.0,
+      "resuelto": 20,
+      "aclaracion": 0,
+      "derivado": 0,
+      "latency_ms_mean": 2.83444,
+      "intent_accuracy": 1.0,
+      "n_scoped": 20.0
+    },
+    {
+      "tag": "out_of_scope",
+      "n": 12,
+      "routing_accuracy": 0.8333333333333334,
+      "resuelto": 2,
+      "aclaracion": 0,
+      "derivado": 10,
+      "latency_ms_mean": 2.3797333333333333,
+      "intent_accuracy": null,
+      "n_scoped": null
+    },
+    {
+      "tag": "standard",
+      "n": 80,
+      "routing_accuracy": 0.9,
+      "resuelto": 72,
+      "aclaracion": 0,
+      "derivado": 8,
+      "latency_ms_mean": 2.974045,
+      "intent_accuracy": 0.9625,
+      "n_scoped": 80.0
+    }
+  ],
+  "sensibilidad_umbral": [
+    {
+      "threshold": 0.3,
+      "automatizadas_pct": 74.83443708609272,
+      "derivadas_pct": 16.55629139072848,
+      "routing_accuracy_pct": 89.40397350993378
+    },
+    {
+      "threshold": 0.4,
+      "automatizadas_pct": 69.5364238410596,
+      "derivadas_pct": 23.178807947019866,
+      "routing_accuracy_pct": 93.37748344370861
+    },
+    {
+      "threshold": 0.5,
+      "automatizadas_pct": 62.913907284768214,
+      "derivadas_pct": 30.4635761589404,
+      "routing_accuracy_pct": 92.71523178807946
+    },
+    {
+      "threshold": 0.6,
+      "automatizadas_pct": 54.966887417218544,
+      "derivadas_pct": 39.0728476821192,
+      "routing_accuracy_pct": 86.75496688741721
+    },
+    {
+      "threshold": 0.7,
+      "automatizadas_pct": 50.331125827814574,
+      "derivadas_pct": 45.033112582781456,
+      "routing_accuracy_pct": 82.11920529801324
+    }
+  ]
+}
